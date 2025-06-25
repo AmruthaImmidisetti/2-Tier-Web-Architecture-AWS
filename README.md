@@ -26,7 +26,7 @@ This setup follows a secure cloud architecture pattern using custom VPC networki
 
 ## 📐 Architecture
 
-📁 Architecture Diagram: [`architecture/architecture-diagram.png`](./architecture/architecture-diagram.png)
+📁 Architecture Diagram: [`architecture/architecture-diagram.png`](./architecture/architecture-diagram.png.jpg)
 
 **This setup includes:**
 - Custom VPC with Public and Private Subnets

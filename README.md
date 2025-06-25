@@ -42,7 +42,7 @@ This setup follows a secure cloud architecture pattern using custom VPC networki
 
 The **full deployment instructions** including screenshots and commands are provided in this PDF:
 
-📄 [`deployment-guide.pdf`](./deployment-guide.pdf)
+📄 [`deployment-guide.pdf`](./deployment-guide.pdf.pdf)
 
 ---
 

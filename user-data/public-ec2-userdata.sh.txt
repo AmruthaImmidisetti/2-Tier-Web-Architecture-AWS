@@ -1,0 +1,28 @@
+#!/bin/bash
+# Update packages
+sudo apt update -y
+
+# Install Apache2
+sudo apt install apache2 -y
+
+# Enable required modules
+sudo a2enmod proxy
+sudo a2enmod proxy_http
+
+# Restart Apache2 to apply module changes
+sudo systemctl restart apache2
+
+# Set up reverse proxy to forward to the private EC2
+sudo bash -c 'cat > /etc/apache2/sites-available/000-default.conf <<EOF
+<VirtualHost *:80>
+    ServerAdmin webmaster@localhost
+    DocumentRoot /var/www/html
+
+    ProxyPreserveHost On
+    ProxyPass / http://10.0.2.192/
+    ProxyPassReverse / http://10.0.2.192/
+</VirtualHost>
+EOF'
+
+# Restart Apache2 to apply new config
+sudo systemctl restart apache2

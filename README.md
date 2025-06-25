@@ -89,7 +89,7 @@ Contains the initialization scripts used when launching EC2 instances:
 
 **Amrutha Varshini**  
 B.Tech – Artificial Intelligence & Machine Learning  
-Aditya Engineering College (2025–2027)  
+Aditya College of Engineering and Technology (2023–2027)  
 📍 India
 
 ---

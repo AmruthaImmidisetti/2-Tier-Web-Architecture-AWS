@@ -1,8 +1,8 @@
-# 🌐 2-Tier Web Architecture on AWS
+#  2-Tier Web Architecture on AWS
 
 ---
 
-## 🔒 Project Overview
+## Project Overview
 
 This project demonstrates a **2-tier web architecture** on AWS, where:
 - A **Private EC2 instance** securely hosts a website using Apache2.
@@ -12,7 +12,7 @@ This setup follows a secure cloud architecture pattern using custom VPC networki
 
 ---
 
-## ☁️ Technologies Used
+## Technologies Used
 
 - **Amazon VPC**
 - **EC2 Instances (Ubuntu)**
@@ -24,9 +24,9 @@ This setup follows a secure cloud architecture pattern using custom VPC networki
 
 ---
 
-## 📐 Architecture
+## Architecture
 
-📁 Architecture Diagram: [`architecture/architecture-diagram.png`](./architecture/architecture-diagram.png.jpg)
+ Architecture Diagram: [`architecture/architecture-diagram.png`](./architecture/architecture-diagram.png.jpg)
 
 **This setup includes:**
 - Custom VPC with Public and Private Subnets
@@ -38,7 +38,7 @@ This setup follows a secure cloud architecture pattern using custom VPC networki
 
 ---
 
-## 🔧 Setup Steps
+## Setup Steps
 
 The **full deployment instructions** including screenshots and commands are provided in this PDF:
 
@@ -46,9 +46,9 @@ The **full deployment instructions** including screenshots and commands are prov
 
 ---
 
-## 📸 Screenshots
+## Screenshots
 
-📁 [`screenshots/`](./screenshots)
+ [`screenshots/`](./screenshots)
 
 This folder includes visual proof of configuration:
 
@@ -62,9 +62,9 @@ This folder includes visual proof of configuration:
 
 ---
 
-## 📝 User Data Scripts
+## User Data Scripts
 
-📁 [`user-data/`](./user-data)
+ [`user-data/`](./user-data)
 
 Contains the initialization scripts used when launching EC2 instances:
 
@@ -75,22 +75,11 @@ Contains the initialization scripts used when launching EC2 instances:
 
 ---
 
-## ✅ Key Takeaways
+## Key Takeaways
 
 - Gained practical hands-on with secure AWS networking
 - Understood how to isolate backend servers from the internet
 - Learned Apache Reverse Proxy configuration
 - Practiced real-world EC2 access flow using SSH and NAT
 - Built professional deployment structure using folder hierarchy
-
----
-
-## 🙋 Author
-
-**Amrutha Varshini**  
-B.Tech – Artificial Intelligence & Machine Learning  
-Aditya College of Engineering and Technology (2023–2027)  
-📍 India
-
----
-
+  
